@@ -23,7 +23,7 @@ const Title = () => {
                 <div></div>
             </motion.div>
 
-            <motion.nav className={titleCSS.nav} variants={navVariants} animate={isOpen ? "open" : "closed"}>
+            <motion.nav className={titleCSS.nav} variants={navVariants} animate={isOpen ? "open" : "closed"} onMouseLeave={() => toggleNav()}>
 
                 <motion.button className={titleCSS.nav_button} type="button" onClick={() => navigate("/overview")}
                 variants={buttonVariants} animate={isOpen ? "open" : "closed"}>Overview</motion.button>

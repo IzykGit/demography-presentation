@@ -1,0 +1,36 @@
+
+
+.jobs_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 3rem;
+
+    padding: 2rem;
+}
+
+.jobs_main > h1 {
+    text-decoration: underline;
+}
+
+
+.education {
+    width: 80%;
+
+    background-color: #9db5d3;
+
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.education > ul {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+.fields {
+    width: 80%;
+}
