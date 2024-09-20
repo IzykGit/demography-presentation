@@ -8,6 +8,8 @@
     gap: 3rem;
 
     padding: 2rem;
+
+    color: #03045e;
 }
 
 .jobs_main > h1 {
@@ -21,20 +23,74 @@
 
 .education {
     width: 80%;
+    height: fit-content;
 
-    background-color: #9db5d3;
+    background-color: white;
 
     padding: 1rem;
     box-sizing: border-box;
+
+    border: 2px solid #2a9d8f;
+    box-shadow: 5px 5px 0px 2px #2a9d8f;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition: 0.2s;
 }
 
-.education > ul {
+.education:hover {
+    box-shadow: 8px 8px 0px 2px #2a9d8f;
+}
+
+.education_text > ul {
     line-height: 2rem;
     font-size: 1.2rem;
 }
+
+.education > img {
+    border-radius: 12px;
+    height: 10rem;
+}
+
+
+
 
 
 
 .fields {
     width: 80%;
+
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+
+    background-color: white;
+
+    border: 2px solid #2a9d8f;
+    box-shadow: 5px 5px 0px 2px #2a9d8f;
+
+    transition: 0.2s;
+}
+
+.fields:hover {
+    box-shadow: 8px 8px 0px 2px #2a9d8f;
+}
+
+
+.salary {
+    width: 80%;
+
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+
+    background-color: white;
+
+    border: 2px solid #2a9d8f;
+    box-shadow: 5px 5px 0px 2px #2a9d8f;
+
+    transition: 0.2s;
+}
+
+.salary:hover {
+    box-shadow: 8px 8px 0px 2px #2a9d8f;
 }

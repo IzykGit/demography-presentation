@@ -21,17 +21,19 @@
     width: 50rem;
     height: 25rem;
 
-    color: #023047;
+    color: #03045e;
 
-    border: 2px solid black;
+    border: 2px solid #376996;
     padding: 1rem;
 
-    box-shadow: 5px 5px 0px 2px black;
+    box-shadow: 5px 5px 0px 2px #376996;
     transition: 0.2s;
+
+    background-color: white;
 }
 
 .overview_text:hover {
-    box-shadow: 8px 8px 0px 2px black;
+    box-shadow: 8px 8px 0px 2px #376996;
 }
 
 .overview_text > h2 {

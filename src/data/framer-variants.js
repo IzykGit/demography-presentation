@@ -2,8 +2,8 @@
 
 
 export const navVariants = {
-    "closed": { height: 0, border: 0 },
-    "open": { height: "26rem", border: "2px solid black" }
+    "closed": { height: 0 },
+    "open": { height: "26rem" }
 }
 
 export const buttonVariants = {

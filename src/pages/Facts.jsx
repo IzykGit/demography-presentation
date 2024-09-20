@@ -5,6 +5,11 @@ const Facts = () => {
     return (
         <>
         <Title />
+
+        <main>
+
+            <h1>Facts</h1>
+        </main>
         </>
     )
 }

@@ -1,5 +1,5 @@
 .info_main {
-    color: #023047;
+    color: #03045e;
 
     display: flex;
     flex-direction: column;
@@ -20,15 +20,17 @@
 
 
 .info_card {
-    border: 2px solid black;
+    border: 2px solid #376996;
     padding: 1rem;
 
     box-sizing: border-box;
     width: 25rem;
 
+    background-color: white;
+
     font-weight: 400;
 
-    box-shadow: 5px 5px 0px 2px black;
+    box-shadow: 5px 5px 0px 2px #376996;
     transition: 0.2s;
 }
 
@@ -43,5 +45,5 @@
 }
 
 .info_card:hover {
-    box-shadow: 8px 8px 0px 2px black;
+    box-shadow: 8px 8px 0px 2px #376996;
 }

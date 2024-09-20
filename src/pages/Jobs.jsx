@@ -11,12 +11,18 @@ const Jobs = () => {
 
 
             <section className={jobCSS.education}>
-                <h2>Education Required:</h2>
 
-                <ul>
-                    <li>Courses in statistics, data analysis, and research methodology.</li>
-                    <li>{`Bachelor's`} degree in sociology, economics, or related fields.</li>
-                </ul>
+                <div className={jobCSS.education_text}>
+                    <h2>Education Required:</h2>
+
+                    <ul>
+                        <li>Courses in statistics, data analysis, and research methodology.</li>
+                        <li>{`Bachelor's`} degree in sociology, economics, or related fields.</li>
+                    </ul>
+                </div>
+
+
+                {/* <img src="./books.jpg" alt="Books"/> */}
             </section>
 
 
@@ -52,7 +58,9 @@ const Jobs = () => {
                 </ul>
             </section>
 
-            <h3>A demographer with 1-3 years of experience earns an average salary of $69,649. On the other end, a demographer with 8+ years of experience earns an average salary of $121,611.</h3>
+            <div className={jobCSS.salary}>
+                <h3>A demographer with 1-3 years of experience earns an average salary of $69,649. On the other end, a demographer with 8+ years of experience earns an average salary of $121,611.</h3>
+            </div>
         </main>
         </>
     )
