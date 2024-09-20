@@ -27,6 +27,14 @@
     transition: 0.2s;
 }
 
+
 .facts_text:hover {
     box-shadow: 8px 8px 0px 2px #fb6f92;
+}
+
+
+.facts_text > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
