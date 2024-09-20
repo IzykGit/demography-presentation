@@ -37,6 +37,9 @@ const Title = () => {
                 <motion.button className={titleCSS.nav_button} type="button" onClick={() => navigate("/facts")}
                 variants={buttonVariants} animate={isOpen ? "open" : "closed"}>Facts</motion.button>
 
+                <motion.button className={titleCSS.nav_button} type="button" onClick={() => navigate("/eligibility")}
+                variants={buttonVariants} animate={isOpen ? "open" : "closed"}>Check Eligibility</motion.button>
+
                 <motion.button className={titleCSS.nav_button} type="button" onClick={() => navigate("/")}
                 variants={buttonVariants} animate={isOpen ? "open" : "closed"}>Home</motion.button>
 

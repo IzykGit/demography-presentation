@@ -14,6 +14,10 @@
     text-decoration: underline;
 }
 
+.jobs_main > h3 {
+    width: 80%;
+}
+
 
 .education {
     width: 80%;

@@ -51,6 +51,8 @@ const Jobs = () => {
                     </li>
                 </ul>
             </section>
+
+            <h3>A demographer with 1-3 years of experience earns an average salary of $69,649. On the other end, a demographer with 8+ years of experience earns an average salary of $121,611.</h3>
         </main>
         </>
     )
