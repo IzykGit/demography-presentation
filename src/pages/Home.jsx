@@ -1,7 +1,7 @@
 
 
 import homeCSS from "../styles/Home.module.css"
-import Title from '../components/title'
+import Title from '../components/Title'
 
 const Home = () => {
 

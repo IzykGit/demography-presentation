@@ -1,5 +1,5 @@
 
-import Title from '../components/title'
+import Title from '../components/Title'
 import { info } from '../data/information'
 import infoCSS from '../styles/Information.module.css'
 

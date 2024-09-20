@@ -1,6 +1,6 @@
 
 import overviewCSS from '../styles/Overview.module.css'
-import Title from '../components/title'
+import Title from '../components/Title'
 
 const Overview = () => {
     return (
