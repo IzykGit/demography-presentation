@@ -1,0 +1,8 @@
+.title_container {
+    padding: 0.5rem 1rem;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,38 @@
+
+.overview_section {
+    height: max-content;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.people_walking {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.overview_text {
+    width: 45%;
+    border-radius: 12px;
+
+    color: #023047;
+
+    border: 2px solid #219ebc;
+    padding: 1rem;
+
+    box-shadow: 5px 5px 0px 2px #219ebc;
+    transition: 0.2s;
+}
+
+.overview_text:hover {
+    box-shadow: 8px 8px 0px 2px #219ebc;
+}
+
+.overview_text > h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.overview_text > p {
+    line-height: 2rem;
+}
