@@ -23,7 +23,7 @@
 
 
 .info_card {
-    border: 2px solid #219ebc;
+    border: 2px solid black;
     padding: 1rem;
 
     box-sizing: border-box;
@@ -33,7 +33,7 @@
 
     border-radius: 12px;
 
-    box-shadow: 5px 5px 0px 2px #219ebc;
+    box-shadow: 5px 5px 0px 2px black;
     transition: 0.2s;
 }
 
@@ -46,5 +46,5 @@
 }
 
 .info_card:hover {
-    box-shadow: 8px 8px 0px 2px #219ebc;
+    box-shadow: 8px 8px 0px 2px black;
 }
