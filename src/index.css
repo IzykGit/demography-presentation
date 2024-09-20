@@ -21,17 +21,19 @@ html, body {
 .custom_btn {
   background-color: #007bff; 
   color: white;
+
   padding: 12px 24px;
+
   font-size: 16px;
   font-weight: bold;
-  border-radius: 8px;
+  
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .custom_btn:hover {
   transform: translateY(-5px); 
-  box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3); 
+  box-shadow: 5px 5px 0px 1px black; 
 }
 
 .custom_btn:focus {
