@@ -10,12 +10,11 @@ const Overview = () => {
 
             <div className={overviewCSS.overview_text}>
                 <h2>Overview</h2>
+                <img src='/people.jpg' alt='People walking' className={overviewCSS.people_walking}/>
                 <p>A demographer is an expert in the study of statistics relating to the changing structure of human populations.
                 They study birth and death rates, gender ratios, living rations and conditions as well as changes in the marriage or divorce rates.</p>
             </div>
 
-
-            <img src='/people.jpg' alt='People walking' className={overviewCSS.people_walking}/>
         </main>
         </>
     )

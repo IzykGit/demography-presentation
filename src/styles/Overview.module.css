@@ -1,18 +1,25 @@
 
 .overview_section {
-    height: max-content;
+    height: 40rem;
+    padding: 0rem 3rem;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .people_walking {
     width: 50%;
     border-radius: 12px;
+
+    margin-left: 0.5rem;
+
+    float: right;
 }
 
 .overview_text {
-    width: 45%;
+    width: 50rem;
+    height: 25rem;
     border-radius: 12px;
 
     color: #023047;
@@ -35,4 +42,5 @@
 
 .overview_text > p {
     line-height: 2rem;
+    font-size: 1.2rem;
 }
