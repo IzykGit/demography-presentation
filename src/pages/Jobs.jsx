@@ -22,7 +22,7 @@ const Jobs = () => {
                 </div>
 
 
-                {/* <img src="./books.jpg" alt="Books"/> */}
+                <img src="./books.jpg" alt="Books"/>
             </section>
 
 
